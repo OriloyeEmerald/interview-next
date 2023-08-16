@@ -2,7 +2,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -12,9 +12,17 @@ button {
     border: none;
     border-radius: .3rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .btn1 {
-    background: orangered;
+    background: orange;
     margin-right: .4rem;
+    color: #fff
+}
+
+.btn2 {
+    background: transparent;
+    color: orange;
+    outline: .2px solid orange
 }

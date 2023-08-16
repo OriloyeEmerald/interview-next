@@ -5,7 +5,7 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <h2>naira<span style={{color: 'orangerd'}}>refill</span></h2>
+      <h2><b>naira</b><span style={{color: 'orange'}}>refill</span></h2>
       <div>
         <button className='btn1'>Register</button>
         <button className='btn2'>Login</button>
