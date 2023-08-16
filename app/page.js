@@ -1,9 +1,9 @@
-
+import Image from 'next/image';
 export default function Home() {
   return (
     <main className="App">
       <div className="intro">
-        <h2>We've Missed You</h2>
+        <h2>We&apos;ve Missed You</h2>
         <br />
         <p className="signin-text">Kindly sign in and get first access to the very best, community and unlock more opportunities.</p>
         <br />
@@ -21,13 +21,20 @@ export default function Home() {
         <br />
         <p className="p">Forgot username or password?</p>
         <br />
-        <p className="p">Don't have an account? <span><a href="#">Sign up</a></span></p>
+        <p className="p">Don&apos;t have an account? <span><a href="#">Sign up</a></span></p>
       </div>
       
       <div>
-        <img src="./newImg.jpg" alt="" />
+      <Image
+  src="/newImg.jpg"
+  alt="nairafill img"
+  width={1100}
+  height={800}
+  />
+  
         </div>
       
+        
     </main>
   )
 }
