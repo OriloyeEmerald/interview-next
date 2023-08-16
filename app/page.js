@@ -10,14 +10,14 @@ export default function Home() {
         <br />
         <form>
           <div>
-            <label>Email:</label>
+            <div>Email:</div>
             <input type="text"/></div>
           <br />
           <div>
-            <label>Password:</label>
+            <div>Password:</div>
             <input type="password"/></div>
           <br />
-          <button>Login</button>
+          <button className="btn">Login</button>
         </form>
         <p>Forgot username or password?</p>
         <p>Don't have an account? <span><a href="#">Sign up</a></span></p>

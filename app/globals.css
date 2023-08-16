@@ -13,11 +13,23 @@
   gap: 30px;
 }
 
+  form {
+    position: relative;
+  }
+  label {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 .App form input {
   padding: .7rem 1.6rem;
+  width: 50%;
 }
 
-.App form button {
+.btn {
   padding: .5rem 2rem;
   text-align: center;
+  color: #fff;
+  width: 50%;
+  background: orange;
 }
